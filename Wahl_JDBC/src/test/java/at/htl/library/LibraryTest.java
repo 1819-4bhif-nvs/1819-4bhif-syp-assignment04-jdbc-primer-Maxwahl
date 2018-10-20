@@ -148,7 +148,7 @@ public class LibraryTest {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        try {/
+        try {
             stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery("select c.constraintname, c.constraintid " +
                     "from sys.sysconstraints c, sys.systables t " +
